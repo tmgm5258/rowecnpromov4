@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trade Forex & Gold on your ECN account with TMGM and earn $5 USD real cash back per lot. Up to 50 lots — real cashback, not credit. April 2026.">
+    <meta name="keywords" content="TMGM cashback, ECN trading commission, forex cashback, gold trading cashback, ECN promotion 2026, CFD cashback">
+    <title>ECN Trading Commission Cashback | TMGM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --navy-dark: #0B1426;
+            --navy: #0F1E36;
+            --navy-mid: #152A4A;
+            --blue-primary: #2563EB;
+            --blue-bright: #3B82F6;
+            --blue-light: #60A5FA;
+            --blue-glow: #1D4ED8;
+            --green-accent: #22C55E;
+            --gold-accent: #F59E0B;
+            --white: #FFFFFF;
+            --gray-50: #F8FAFC;
+            --gray-100: #F1F5F9;
+            --gray-200: #E2E8F0;
+            --gray-300: #CBD5E1;
+            --gray-500: #64748B;
+            --gray-600: #475569;
+            --gray-700: #334155;
+            --gray-800: #1E293B;
+            --text-dark: #0F172A;
+            --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-main);
+            color: var(--text-dark);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* ============ TOP NAV ============ */
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: var(--white);
+            border-bottom: 1px solid var(--gray-200);
+            padding: 0 40px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+        .nav-logo-img { height: 40px; }
+        .nav-right { display: flex; align-items: center; gap: 16px; }
+        .nav-btn {
+            padding: 8px 24px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-family: var(--font-main);
+        }
+        .nav-btn-outline {
+            border: 1px solid var(--gray-300);
+            background: transparent;
+            color: var(--text-dark);
+        }
+        .nav-btn-outline:hover { border-color: var(--text-dark); }
+        .nav-lang {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--text-dark);
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .nav-lang img { width: 24px; height: 16px; border-radius: 2px; }
+        .nav-search { color: var(--gray-600); font-size: 18px; cursor: pointer; }
+
+        /* ============ SOCIAL SIDEBAR ============ */
+        .social-sidebar {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        .social-sidebar a {
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 18px;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        .social-sidebar a:hover { opacity: 0.85; }
+        .social-sidebar .sb-fb { background: #1877F2; }
+        .social-sidebar .sb-ig { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .social-sidebar .sb-yt { background: #FF0000; }
+        .social-sidebar .sb-x { background: #000000; }
+        .social-sidebar .sb-li { background: #0A66C2; }
+
+        /* ============ HERO SECTION ============ */
+        .hero {
+            position: relative;
+            min-height: 860px;
+            background: #0A0A0A;
+            padding: 72px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background-image: url('https://raw.githubusercontent.com/tmgm5258/rowecnpromov3/a37f9297804a6fd6019c70c3593c8f265bf4d826/KV%202.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .hero-bg::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0.5) 100%);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+            padding: 80px 40px 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 800;
+            color: var(--white);
+            line-height: 1.15;
+            margin-bottom: 16px;
+            animation: fadeInUp 0.6s ease 0.1s both;
+        }
+        .hero h2 {
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--gray-300);
+            line-height: 1.6;
+            margin-bottom: 28px;
+            animation: fadeInUp 0.6s ease 0.2s both;
+        }
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: transparent;
+            color: var(--white);
+            padding: 14px 48px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            border: 1px solid rgba(255,255,255,0.4);
+            animation: fadeInUp 0.6s ease 0.3s both;
+            margin-bottom: 0;
+        }
+        .hero-cta:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.7);
+        }
+        .hero-spacer { height: 355px; width: 100%; }
+        .hero-period {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 30px;
+            padding: 12px 28px;
+            animation: fadeInUp 0.6s ease 0.4s both;
+        }
+        .hero-period .date { color: var(--white); font-size: 15px; font-weight: 600; }
+        .hero-period .divider { width: 1px; height: 16px; background: rgba(255,255,255,0.3); }
+        .hero-period .platform { color: var(--white); font-size: 13px; font-weight: 500; }
+        .hero-tc {
+            font-size: 13px;
+            color: rgba(255,255,255,0.85);
+            margin-top: 20px;
+            animation: fadeInUp 0.6s ease 0.45s both;
+        }
+
+        /* ============ STEPS SECTION ============ */
+        .steps-section { padding: 80px 40px; background: var(--white); }
+        .container { max-width: 1100px; margin: 0 auto; }
+        .section-title {
+            text-align: center;
+            font-size: 34px;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 12px;
+        }
+        .section-subtitle {
+            text-align: center;
+            font-size: 16px;
+            color: var(--gray-600);
+            margin-bottom: 40px;
+        }
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            position: relative;
+        }
+        .step-card {
+            text-align: center;
+            position: relative;
+            padding: 28px 24px 32px;
+            background: var(--gray-50);
+            border-radius: 20px;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+        .step-card.highlighted {
+            border-color: var(--blue-primary);
+            background: var(--white);
+        }
+        .step-number {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            background: transparent;
+            border: 2px solid var(--blue-primary);
+            color: var(--blue-primary);
+            font-size: 22px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        .step-image {
+            width: 100%;
+            max-width: 200px;
+            height: 180px;
+            object-fit: contain;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        .step-title { font-size: 18px; font-weight: 700; color: var(--text-dark); margin-bottom: 10px; }
+        .step-desc { font-size: 14px; color: var(--gray-600); line-height: 1.6; }
+        .steps-cta-wrapper { text-align: center; margin-top: 48px; }
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--navy);
+            color: var(--white);
+            padding: 16px 48px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: var(--font-main);
+        }
+        .btn-primary:hover {
+            background: var(--text-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        .steps-tc { text-align: center; font-size: 12px; color: var(--gray-500); margin-top: 16px; }
+
+        /* ============ ELIGIBLE PRODUCTS ============ */
+        .products-section { padding: 80px 40px; background: var(--white); }
+        .products-wrapper {
+            background: var(--gray-50);
+            border-radius: 28px;
+            padding: 60px 48px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+            max-width: 950px;
+            margin: 0 auto 32px;
+        }
+        .product-card-full {
+            width: 100%;
+            border-radius: 16px;
+            display: block;
+            transition: all 0.3s;
+        }
+        .product-card-full:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+        }
+        .products-note { text-align: center; font-size: 16px; font-weight: 500; color: var(--gray-700); margin-bottom: 8px; }
+        .products-note span { color: var(--blue-primary); font-weight: 700; }
+        .products-tc { text-align: center; font-size: 12px; color: var(--gray-500); margin-top: 12px; }
+
+        /* ============ KEY TERMS ============ */
+        .terms-section { padding: 80px 40px; background: var(--white); }
+        .terms-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        .term-item {
+            display: flex;
+            gap: 20px;
+            padding: 28px 24px;
+            background: var(--gray-50);
+            border-radius: 16px;
+            align-items: flex-start;
+        }
+        .term-icon-img { width: 72px; min-width: 72px; height: 72px; object-fit: contain; }
+        .term-label { font-size: 18px; font-weight: 800; color: var(--text-dark); margin-bottom: 8px; }
+        .term-value { font-size: 14px; color: var(--gray-600); line-height: 1.6; }
+
+        /* ============ FAQ SECTION ============ */
+        .faq-section { padding: 80px 40px; background: var(--gray-50); }
+        .faq-list { max-width: 800px; margin: 0 auto; }
+        .faq-item {
+            background: var(--white);
+            border-radius: 12px;
+            border: 1px solid var(--gray-200);
+            margin-bottom: 12px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        .faq-item:hover { border-color: var(--blue-primary); }
+        .faq-question {
+            padding: 20px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+        .faq-question h3 { font-size: 15px; font-weight: 600; color: var(--text-dark); flex: 1; padding-right: 16px; }
+        .faq-chevron {
+            width: 32px; height: 32px; min-width: 32px;
+            border-radius: 8px; background: var(--gray-100);
+            display: flex; align-items: center; justify-content: center;
+            color: var(--gray-600); font-size: 12px; transition: all 0.3s;
+        }
+        .faq-item.open .faq-chevron { background: var(--blue-primary); color: var(--white); transform: rotate(180deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+        .faq-answer-inner { padding: 0 24px 20px; font-size: 14px; color: var(--gray-600); line-height: 1.7; }
+
+        /* ============ TRUST BADGES ============ */
+        .trust-section { padding: 80px 40px; background: var(--white); }
+        .trust-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr);
+            gap: 28px; max-width: 900px; margin: 0 auto;
+        }
+        .trust-card { text-align: center; padding: 20px 16px; }
+        .trust-icon-img { width: 80px; height: 80px; object-fit: contain; margin: 0 auto 16px; display: block; }
+        .trust-title { font-size: 14px; font-weight: 600; color: var(--text-dark); line-height: 1.4; }
+
+        /* ============ GET STARTED BANNER ============ */
+        .cta-banner {
+            padding: 48px 40px;
+            background: linear-gradient(135deg, var(--blue-primary), #1E40AF, var(--blue-glow));
+            position: relative; overflow: hidden;
+        }
+        .cta-banner::before {
+            content: ''; position: absolute; top: -50%; right: -10%;
+            width: 400px; height: 400px;
+            background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+        }
+        .cta-inner {
+            max-width: 1100px; margin: 0 auto;
+            display: flex; justify-content: space-between; align-items: center;
+            position: relative; z-index: 2;
+        }
+        .cta-text h3 { font-size: 28px; font-weight: 800; color: var(--white); margin-bottom: 6px; }
+        .cta-text h3 .green { color: var(--green-accent); }
+        .cta-text p { font-size: 15px; color: rgba(255,255,255,0.75); }
+        .cta-buttons { display: flex; align-items: center; gap: 20px; }
+        .cta-btn-white {
+            background: var(--white); color: var(--blue-primary);
+            padding: 14px 36px; border-radius: 10px; font-size: 15px; font-weight: 700;
+            text-decoration: none; transition: all 0.3s; border: none; cursor: pointer;
+            font-family: var(--font-main);
+        }
+        .cta-btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+        .cta-btn-ghost { color: var(--white); font-size: 14px; font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+        .cta-btn-ghost:hover { text-decoration-thickness: 2px; }
+
+        /* ============ CONNECT / FOOTER ============ */
+        .connect-section { padding: 48px 40px 24px; background: var(--white); border-top: 1px solid var(--gray-200); }
+        .connect-title { text-align: center; font-size: 20px; font-weight: 700; color: var(--text-dark); margin-bottom: 20px; }
+        .social-icons { display: flex; justify-content: center; gap: 16px; margin-bottom: 36px; }
+        .social-icon {
+            width: 42px; height: 42px; border-radius: 50%; background: var(--gray-100);
+            display: flex; align-items: center; justify-content: center;
+            color: var(--gray-700); font-size: 18px; text-decoration: none; transition: all 0.3s;
+        }
+        .social-icon:hover { background: var(--blue-primary); color: var(--white); }
+        .footer-info {
+            max-width: 1100px; margin: 0 auto;
+            display: grid; grid-template-columns: 200px 1fr; gap: 40px;
+            padding: 32px 0; border-top: 1px solid var(--gray-200);
+        }
+        .footer-logo-text { font-size: 24px; font-weight: 800; color: var(--text-dark); letter-spacing: 1.5px; }
+        .footer-logo-sub { font-size: 7px; color: var(--gray-500); letter-spacing: 3.5px; text-transform: uppercase; }
+        .footer-contact { margin-top: 16px; font-size: 12px; color: var(--gray-600); line-height: 2; }
+        .footer-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+        .footer-links a { font-size: 12px; color: var(--gray-600); text-decoration: none; line-height: 2; transition: color 0.3s; }
+        .footer-links a:hover { color: var(--blue-primary); }
+
+        .disclaimer-section { padding: 32px 40px; background: var(--gray-50); border-top: 1px solid var(--gray-200); }
+        .disclaimer-title { font-size: 13px; font-weight: 700; color: var(--text-dark); margin-bottom: 10px; }
+        .disclaimer-text { font-size: 11px; color: var(--gray-500); line-height: 1.8; max-width: 1100px; margin: 0 auto; }
+        .regulatory-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
+            max-width: 1100px; margin: 24px auto 0; padding-top: 20px;
+            border-top: 1px solid var(--gray-200);
+        }
+        .reg-entity { font-size: 11px; color: var(--gray-500); line-height: 1.7; }
+        .reg-entity strong { color: var(--gray-700); display: block; margin-bottom: 4px; }
+
+        /* ============ ANIMATIONS ============ */
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+
+        /* ============ RESPONSIVE ============ */
+        @media (max-width: 1024px) {
+            .hero { min-height: 760px; }
+            .hero h1 { font-size: 38px; }
+            .hero-spacer { height: 280px; }
+            .trust-grid { grid-template-columns: repeat(2, 1fr); }
+            .regulatory-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .top-nav { padding: 0 20px; height: 64px; }
+            .nav-btn-outline { display: none; }
+            .social-sidebar { display: none; }
+            .hero { min-height: 640px; }
+            .hero-content { padding: 60px 20px 40px; }
+            .hero h1 { font-size: 32px; }
+            .hero h2 { font-size: 16px; }
+            .hero-spacer { height: 200px; }
+            .hero-period { padding: 10px 20px; }
+            .hero-period .date { font-size: 13px; }
+            .hero-period .platform { font-size: 11px; }
+            .steps-section, .products-section, .terms-section, .faq-section, .trust-section { padding: 60px 20px; }
+            .section-title { font-size: 26px; }
+            .steps-grid { grid-template-columns: 1fr; gap: 20px; max-width: 400px; margin: 0 auto; }
+            .products-grid { grid-template-columns: 1fr; max-width: 500px; margin: 0 auto 32px; }
+            .products-wrapper { padding: 40px 20px; border-radius: 20px; }
+            .terms-grid { grid-template-columns: 1fr; }
+            .trust-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+            .cta-inner { flex-direction: column; text-align: center; gap: 24px; }
+            .cta-buttons { flex-direction: column; gap: 12px; }
+            .footer-info { grid-template-columns: 1fr; }
+            .footer-links { grid-template-columns: repeat(2, 1fr); }
+            .regulatory-grid { grid-template-columns: 1fr; }
+            .connect-section, .disclaimer-section, .cta-banner { padding-left: 20px; padding-right: 20px; }
+        }
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 28px; }
+            .hero-spacer { height: 140px; }
+            .hero-period { flex-direction: column; gap: 4px; }
+            .hero-period .divider { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP NAV -->
+    <nav class="top-nav">
+        <a href="#" class="nav-logo">
+            <img src="https://www.tmgm.com/images/logos/tmgm-logo.svg" alt="TMGM Trade The World" class="nav-logo-img" onerror="this.onerror=null;this.parentElement.innerHTML='<span style=\'font-size:24px;font-weight:800;color:#0F1E36;letter-spacing:1.5px\'>TMGM</span><span style=\'display:block;font-size:7px;color:#64748B;letter-spacing:3.5px;text-transform:uppercase;margin-top:-4px\'>Trade The World</span>';">
+        </a>
+        <div class="nav-right">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-btn nav-btn-outline">Sign Up</a>
+            <div class="nav-lang">
+                <img src="https://flagcdn.com/w40/gb.png" alt="EN"> EN
+            </div>
+            <div class="nav-search"><i class="fas fa-search"></i></div>
+        </div>
+    </nav>
+
+    <!-- SOCIAL SIDEBAR -->
+    <div class="social-sidebar">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="sb-fb"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="sb-ig"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="sb-yt"><i class="fab fa-youtube"></i></a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="sb-x"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="sb-li"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Real Cash Back. No Trading Credits.</h1>
+            <h2>Experience the ECN advantage with $5 USD real cash back for every lot you trade this April. No complex bonuses — just withdrawable cash.</h2>
+            <a href="#steps" class="hero-cta">Claim Now</a>
+            <div class="hero-spacer"></div>
+            <div class="hero-period">
+                <span class="date">1 April 2026 – 30 April 2026</span>
+                <div class="divider"></div>
+                <span class="platform">MT4/MT5 Platform Time</span>
+            </div>
+            <p class="hero-tc">*Terms & Conditions Apply</p>
+        </div>
+    </section>
+
+    <!-- HOW TO GET YOUR CASHBACK -->
+    <section id="steps" class="steps-section">
+        <div class="container reveal">
+            <h2 class="section-title">How To Get Your Cashback?</h2>
+            <p class="section-subtitle">Follow these 3 simple steps to start earning real cash back on your trades</p>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/089f692ac09417a69cc17bfb197f6bd6fc8952fa/open-live-account.png" alt="Open ECN Account" class="step-image">
+                    <h3 class="step-title">Open an ECN Account</h3>
+                    <p class="step-desc">Create a Live ECN Account with TMGM and make your first deposit.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/b52254712622cd54a6202c83db332d0b85177e7e/Sign%20Up%204-%20opt%20in%20for%20promotion.png" alt="Opt-in to the Promotion" class="step-image">
+                    <h3 class="step-title">Opt-in to the Promotion</h3>
+                    <p class="step-desc">Reach out to your Account Manager to opt-in to the campaign.</p>
+                </div>
+                <div class="step-card highlighted">
+                    <div class="step-number">3</div>
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/c1a30a84289def91a7cfbc0f78463a751efc218f/Refer%20Friend%201.png" alt="Trade & Earn Cashback" class="step-image">
+                    <h3 class="step-title">Trade & Earn Cashback</h3>
+                    <p class="step-desc">Trade Forex and Gold during the campaign period. Your cashback of $5 USD per lot will be calculated and credited to your account after the campaign ends — up to 50 lots ($250 USD)*</p>
+                </div>
+            </div>
+            <div class="steps-cta-wrapper">
+                <a href="https://portal.tmgm.com/register" target="_blank" rel="noopener noreferrer" class="btn-primary">Open Account</a>
+            </div>
+            <p class="steps-tc">*Terms and Conditions apply</p>
+        </div>
+    </section>
+
+    <!-- ELIGIBLE PRODUCTS -->
+    <section class="products-section">
+        <div class="products-wrapper reveal">
+            <h2 class="section-title">What Products Are Eligible<br>for the Cashback?</h2>
+            <p class="section-subtitle">Trade the following products during the campaign to earn your cashback</p>
+            <div class="products-grid">
+                <img src="https://raw.githubusercontent.com/tmgm5258/rowecnpromov3/a37f9297804a6fd6019c70c3593c8f265bf4d826/forex.png" alt="Forex — Trade 1 standard lot = $5 USD cashback" class="product-card-full">
+                <img src="https://raw.githubusercontent.com/tmgm5258/rowecnpromov3/a37f9297804a6fd6019c70c3593c8f265bf4d826/gold.png" alt="Gold — Trade 1 standard lot = $5 USD cashback" class="product-card-full">
+            </div>
+            <p class="products-note">The more you trade, the more cashback you earn — capped at <span>50 lots ($250 USD).</span></p>
+            <p class="products-tc">*Terms & Conditions Apply</p>
+        </div>
+    </section>
+
+    <!-- KEY TERMS & CONDITIONS -->
+    <section class="terms-section">
+        <div class="container reveal">
+            <h2 class="section-title">Key Terms & Conditions</h2>
+            <p class="section-subtitle">Please review the key terms before opting in</p>
+            <div class="terms-grid">
+                <div class="term-item">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/93c3726a9eca0101f7d7c2165c8a394aa4d07799/Vector-t%26C-earth.png" alt="Eligible Countries" class="term-icon-img">
+                    <div>
+                        <div class="term-label">Eligible Countries</div>
+                        <div class="term-value">Germany, Netherlands, Italy, Belgium, Poland, Croatia, Czech Republic, Turkey, Greece, Nigeria, Kenya, UAE, Saudi Arabia, Jordan, Bahrain, Kuwait, Oman</div>
+                    </div>
+                </div>
+                <div class="term-item">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/93c3726a9eca0101f7d7c2165c8a394aa4d07799/Vector--t%26C-earthpromotion%20period.png" alt="Promotion Period" class="term-icon-img">
+                    <div>
+                        <div class="term-label">Promotion Period</div>
+                        <div class="term-value">1 April 2026 00:00:00 – 30 April 2026 23:59:59 (MT4/MT5 Platform Time)</div>
+                    </div>
+                </div>
+                <div class="term-item">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/93c3726a9eca0101f7d7c2165c8a394aa4d07799/Vector--t%26C-earth-rebate%20mechanics.png" alt="Cashback Mechanics" class="term-icon-img">
+                    <div>
+                        <div class="term-label">Cashback Mechanics</div>
+                        <div class="term-value">$5 USD per standard lot (Forex or Gold). Maximum: 50 lots ($250 USD). Real cash credited to your trading account after the campaign ends.</div>
+                    </div>
+                </div>
+                <div class="term-item">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/93c3726a9eca0101f7d7c2165c8a394aa4d07799/t%26C-earth-elegibility.png" alt="Eligibility" class="term-icon-img">
+                    <div>
+                        <div class="term-label">Eligibility</div>
+                        <div class="term-value">Open to new clients only — clients who have not made any deposits before with TMGM. ECN accounts only. Must have at least one MT4/MT5 trading account.</div>
+                    </div>
+                </div>
+                <div class="term-item">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/93c3726a9eca0101f7d7c2165c8a394aa4d07799/Vector-t%26C-bonuscreditrules.png" alt="Trading Rules" class="term-icon-img">
+                    <div>
+                        <div class="term-label">Trading Rules</div>
+                        <div class="term-value">Only trades opened and closed within the promotion period are counted. Minimum trade hold time: 2 minutes. Positions opened before the promotion period are not eligible.</div>
+                    </div>
+                </div>
+                <div class="term-item">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/93c3726a9eca0101f7d7c2165c8a394aa4d07799/t%26C-tmgm-right.png" alt="TMGM Rights" class="term-icon-img">
+                    <div>
+                        <div class="term-label">TMGM Rights</div>
+                        <div class="term-value">TMGM reserves the right to modify or terminate this promotion at any time. Volume-focused trading or churning activities may result in disqualification.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section">
+        <div class="container reveal">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Any questions? We've answered the most common ones below!</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>What is the ECN Trading Commission Cashback?</h3>
+                        <div class="faq-chevron"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">This promotion refunds your ECN trading commissions as real cashback. For every 1 standard lot of Forex or Gold traded during the campaign period, you receive $5 USD in real cash — credited directly to your trading account after the campaign ends. The maximum cashback is capped at 50 lots ($250 USD).</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Who is eligible for this promotion?</h3>
+                        <div class="faq-chevron"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">This promotion is open to new TMGM clients only — clients who have not made any deposits before with TMGM on a client level. You must have an ECN account and be registered in one of the 17 eligible countries. Participants must opt-in via their Account Manager.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Is the cashback real cash or bonus credit?</h3>
+                        <div class="faq-chevron"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">It's real cash — not bonus credit. The cashback is credited directly to your trading account after the campaign ends. Unlike bonus credit offers from other brokers, this is withdrawable cash with no complex conditions attached.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Which products are eligible?</h3>
+                        <div class="faq-chevron"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Only Forex and Gold (XAUUSD) products are eligible for this cashback promotion. Trading volume on other products will not be counted towards the cashback.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Are there any trading rules I should be aware of?</h3>
+                        <div class="faq-chevron"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes. Only trades that are both opened and closed within the promotion period (1–30 April 2026) will count towards your cashback. Positions opened before the promotion period but closed during it will not be counted. Additionally, all trades must be held for at least 2 minutes to qualify.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>When will I receive my cashback?</h3>
+                        <div class="faq-chevron"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Your cashback will be calculated and reviewed after the campaign ends (30 April 2026). Once approved, the cashback will typically be credited to your trading account within a few business days.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Which countries are eligible for this promotion?</h3>
+                        <div class="faq-chevron"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">This promotion is open to TMGM clients registered in: Germany, Netherlands, Italy, Belgium, Poland, Croatia, Czech Republic, Turkey, Greece, Nigeria, Kenya, UAE, Saudi Arabia, Jordan, Bahrain, Kuwait, and Oman.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MORE REASONS TO TRADE WITH TMGM -->
+    <section class="trust-section">
+        <div class="container reveal">
+            <h2 class="section-title">More Reasons To Trade With <span style="color:var(--blue-primary)">TMGM</span></h2>
+            <div style="height:40px"></div>
+            <div class="trust-grid">
+                <div class="trust-card">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/main/Regulated%20and%20Licensed.png" alt="Regulated and Licensed" class="trust-icon-img">
+                    <p class="trust-title">Regulated<br>and Licensed</p>
+                </div>
+                <div class="trust-card">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/090f89bcfc4d7ac9b2e4dd81c3d89dccf0e49a8d/10%2B%20Years%20Industry%20Experience.png" alt="10 years industry experience" class="trust-icon-img">
+                    <p class="trust-title">10 years industry<br>experience</p>
+                </div>
+                <div class="trust-card">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/090f89bcfc4d7ac9b2e4dd81c3d89dccf0e49a8d/24%3A7%20Customer%20Support.png" alt="24/7 Customer support" class="trust-icon-img">
+                    <p class="trust-title">24/7 Customer<br>support</p>
+                </div>
+                <div class="trust-card">
+                    <img src="https://raw.githubusercontent.com/tmgm5258/TMGMQ2ROWECNPromo/090f89bcfc4d7ac9b2e4dd81c3d89dccf0e49a8d/Best%20in%20Class%20Trading%20Experience.png" alt="Best in class trading experience" class="trust-icon-img">
+                    <p class="trust-title">Best in class<br>trading experience</p>
+                </div>
+            </div>
+            <div class="steps-cta-wrapper">
+                <a href="https://portal.tmgm.com/register" target="_blank" rel="noopener noreferrer" class="btn-primary">Open Live Account</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GET STARTED CTA BANNER -->
+    <section class="cta-banner">
+        <div class="cta-inner">
+            <div class="cta-text">
+                <h3><span class="green">Get Started!</span></h3>
+                <p>Sign up and access the Global Markets in less than 3 minutes!</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="https://portal.tmgm.com/login" target="_blank" rel="noopener noreferrer" class="cta-btn-white">Start Trading</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn-ghost">or Try Demo Account</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONNECT WITH US -->
+    <section class="connect-section">
+        <h3 class="connect-title">Connect with Us</h3>
+        <div class="social-icons">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-youtube"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+        </div>
+        <div class="footer-info">
+            <div class="footer-brand">
+                <div class="footer-logo-text">TMGM</div>
+                <div class="footer-logo-sub">Trade The World</div>
+                <div class="footer-contact">
+                    Phone: +61 2 8039 8365<br>
+                    Fax: +61 2 8628 8388<br>
+                    Email: support@tmgm.com<br>
+                    Web: www.tmgm.com
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Client Agreement</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Best Execution Policy for Trading CFDs</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Conflict of Interest Policy</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Risk Warning Notice</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Complaint Handling Policy</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Hedging Counterparty Policy</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Swap Free Account Terms and Conditions</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Warning of Fully Hedged Stop Out</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- DISCLAIMER -->
+    <section class="disclaimer-section">
+        <div class="disclaimer-text">
+            <p class="disclaimer-title">Disclaimer:</p>
+            <p>The information provided on this website is general in nature only and does not constitute personal financial advice. Before acting on any information on this website, you should consider the appropriateness of the information having regard to your objectives, financial situation and needs. Investing in CFDs and Margin FX Contracts carries significant risk and is not suitable for all investors. You may lose more than your initial deposit. You don't own, or have, any interest in the underlying assets. We recommend that you seek independent advice and ensure fully understand the risks involved before trading. It is important that you read and consider disclosure documents before you acquire any product listed on this website. The information and advertisements offered on this website are not intended for use by any person in any country or jurisdiction where such use is contrary to the local laws and regulations. Products and Services offered on this website are not intended for residents of the United States.</p>
+            <p style="margin-top:8px; font-style: italic;">TMGM is licensed and regulated in various jurisdictions.</p>
+        </div>
+        <div class="regulatory-grid">
+            <div class="reg-entity">
+                <strong>Trademax Australia Limited</strong>
+                trading as TMGM, is regulated by the Australian Securities and Investments Commission (ASIC), AFSL no. 436416 and is located at Tower1, 520 Bourke Street, Melbourne, VIC 3000, Australia.<br>
+                Email: support@tmgm.com.au
+            </div>
+            <div class="reg-entity">
+                <strong>Trademax Global Limited</strong>
+                trading as TMGM, is authorised and regulated by the Vanuatu Financial Services Commission (VFSC), registration number 40356 and is registered at 3rd Floor Bay View House, Les Highway, Port Vila, Vanuatu.<br>
+                Email: support@tmgm.com
+            </div>
+            <div class="reg-entity">
+                <strong>Trademax Global Markets (INT)</strong>
+                trading as TMGM, is authorised and regulated by the Financial Services Authority (FSA) of Seychelles, with licence number SD078. The company is registered at Office B11, Providence Complex, Providence, Mahé, Seychelles.<br>
+                Email: support@tmgm.com
+            </div>
+            <div class="reg-entity">
+                <strong>Trademax Global Markets International</strong>
+                Pty Ltd, trading as TMGM, is authorised and regulated by the Financial Services Commission (FSC) with the licence no. GB21026703, and is registered at C/o AXIS Corp Solutions (Mauritius) Ltd, Level 2, Sir William Newton Street, Port Louis, Mauritius.<br>
+                Email: support@tmgm.com
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // FAQ Accordion
+        function toggleFaq(el) {
+            const item = el.parentElement;
+            const answer = item.querySelector('.faq-answer');
+            const isOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(faq => {
+                faq.classList.remove('open');
+                faq.querySelector('.faq-answer').style.maxHeight = null;
+            });
+            if (!isOpen) {
+                item.classList.add('open');
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+            }
+        }
+
+        // Scroll reveal animation
+        const revealElements = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+            });
+        }, { threshold: 0.1 });
+        revealElements.forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>
